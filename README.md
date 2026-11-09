@@ -28,7 +28,7 @@ ESX.TriggerServerCallback("C-GetSteamName", function(res)
 end)
 
 # If You Need Ever Steam Name With Function GetPlayerName(source) Do This # 
-Replace GetPlayerName(source) With ESX.GetSteamName(source)
+Replace GetPlayerName(source) With exports[ResourceFramework]:GetSteamName(source)
 
 # How To Install This Fix #
 
